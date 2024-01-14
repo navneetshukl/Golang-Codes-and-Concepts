@@ -1,4 +1,4 @@
-# Goroutines
+# Golang Concepts
 
 ### Basics of Goroutines in golang
 
