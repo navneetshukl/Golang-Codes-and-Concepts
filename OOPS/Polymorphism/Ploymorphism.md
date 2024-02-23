@@ -10,11 +10,10 @@ In this type of polymorphism, the compiler knows which exact functions will be e
 
 - **Operator Overloading**: The same operator is used for operating on different data types.
 
-# Overloading in Go
+### Overloading in Go
 
 Go does not directly support method, function, or operator overloading, which are common features in many object-oriented languages. However, Go provides other ways to achieve similar outcomes.
 
-## Method Overloading
 
 Method overloading is not supported in Go. If you try to declare two methods with the same name but different parameters (as in Program-1), the compiler will throw an error. Here's an example of such an error:
 
@@ -26,7 +25,6 @@ Method overloading is not supported in Go. If you try to declare two methods wit
 
 ```
 
-# Method Overloading in Go
 
 In Go, method overloading can be achieved using variadic functions. A variadic function is a function that can be called with varying numbers of arguments. 
 
